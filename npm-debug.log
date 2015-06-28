@@ -1,0 +1,487 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react@0.12.1' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'react@0.12.1', null ]
+6 verbose cache add name=undefined spec="react@0.12.1" args=["react@0.12.1",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'react@0.12.1',
+7 verbose parsed url   path: 'react@0.12.1',
+7 verbose parsed url   href: 'react@0.12.1' }
+8 verbose cache add name="react" spec="0.12.1" args=["react","0.12.1"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '0.12.1',
+9 verbose parsed url   path: '0.12.1',
+9 verbose parsed url   href: '0.12.1' }
+10 verbose addNamed [ 'react', '0.12.1' ]
+11 verbose addNamed [ '0.12.1', '0.12.1' ]
+12 silly lockFile af0430cb-react-0-12-1 react@0.12.1
+13 verbose lock react@0.12.1 C:\Users\zy\AppData\Roaming\npm-cache\af0430cb-react-0-12-1.lock
+14 verbose request where is /react
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id 0a2d2c5cc9d4f469
+17 verbose url raw /react
+18 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+19 verbose url resolved https://registry.npmjs.org/react
+20 verbose request where is https://registry.npmjs.org/react
+21 info trying registry request attempt 1 at 16:25:28
+22 http GET https://registry.npmjs.org/react
+23 http 200 https://registry.npmjs.org/react
+24 silly registry.get cb [ 200,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"3SQYRXDWX5PMSKTMWNS75IL0J"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '62734',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     date: 'Sun, 28 Jun 2015 08:25:34 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '6',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-nrt6135-NRT',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '1',
+24 silly registry.get     'x-timer': 'S1435479934.799068,VS0,VE1',
+24 silly registry.get     vary: 'Accept' } ]
+25 silly lockFile 24872b60-npmjs-org-react-react-0-12-1-tgz https://registry.npmjs.org/react/-/react-0.12.1.tgz
+26 verbose lock https://registry.npmjs.org/react/-/react-0.12.1.tgz C:\Users\zy\AppData\Roaming\npm-cache\24872b60-npmjs-org-react-react-0-12-1-tgz.lock
+27 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-0.12.1.tgz',
+27 verbose addRemoteTarball   'b73836f4f1888ce79c9372208398a3fb5483bc35' ]
+28 info retry fetch attempt 1 at 16:25:38
+29 verbose fetch to= C:\Users\zy\AppData\Local\Temp\npm-6724-tASX_xHv\registry.npmjs.org\react\-\react-0.12.1.tgz
+30 http GET https://registry.npmjs.org/react/-/react-0.12.1.tgz
+31 http 200 https://registry.npmjs.org/react/-/react-0.12.1.tgz
+32 silly lockFile 24872b60-npmjs-org-react-react-0-12-1-tgz https://registry.npmjs.org/react/-/react-0.12.1.tgz
+33 silly lockFile 24872b60-npmjs-org-react-react-0-12-1-tgz https://registry.npmjs.org/react/-/react-0.12.1.tgz
+34 silly lockFile af0430cb-react-0-12-1 react@0.12.1
+35 silly lockFile af0430cb-react-0-12-1 react@0.12.1
+36 silly resolved [ { name: 'react',
+36 silly resolved     description: 'React is a JavaScript library for building user interfaces.',
+36 silly resolved     version: '0.12.1',
+36 silly resolved     keywords: [ 'react' ],
+36 silly resolved     homepage: 'https://github.com/facebook/react/tree/master/npm-react',
+36 silly resolved     bugs: { url: 'https://github.com/facebook/react/issues?labels=react-core' },
+36 silly resolved     license: 'BSD-3-Clause',
+36 silly resolved     files: [ 'README.md', 'addons.js', 'react.js', 'dist/', 'lib/' ],
+36 silly resolved     main: 'react.js',
+36 silly resolved     repository: { type: 'git', url: 'https://github.com/facebook/react' },
+36 silly resolved     engines: { node: '>=0.10.0' },
+36 silly resolved     dependencies: { envify: '^3.0.0' },
+36 silly resolved     browserify: { transform: [Object] },
+36 silly resolved     _id: 'react@0.12.1',
+36 silly resolved     _shasum: 'b73836f4f1888ce79c9372208398a3fb5483bc35',
+36 silly resolved     _resolved: 'https://registry.npmjs.org/react/-/react-0.12.1.tgz',
+36 silly resolved     _from: 'react@0.12.1',
+36 silly resolved     scripts: {},
+36 silly resolved     _npmVersion: '1.4.21',
+36 silly resolved     _npmUser: { name: 'jeffmo', email: 'jeff@anafx.com' },
+36 silly resolved     maintainers: [ [Object], [Object] ],
+36 silly resolved     dist:
+36 silly resolved      { shasum: 'b73836f4f1888ce79c9372208398a3fb5483bc35',
+36 silly resolved        tarball: 'http://registry.npmjs.org/react/-/react-0.12.1.tgz' },
+36 silly resolved     directories: {} } ]
+37 info install react@0.12.1 into E:\allmobilize\fry
+38 info installOne react@0.12.1
+39 verbose node_modules\react unbuild
+40 info preuninstall react@0.12.1
+41 info uninstall react@0.12.1
+42 verbose true,E:\allmobilize\fry\node_modules,E:\allmobilize\fry\node_modules unbuild react@0.12.1
+43 info postuninstall react@0.12.1
+44 verbose tar unpack C:\Users\zy\AppData\Roaming\npm-cache\react\0.12.1\package.tgz
+45 silly lockFile 40c80e76-lmobilize-fry-node-modules-react tar://E:\allmobilize\fry\node_modules\react
+46 verbose lock tar://E:\allmobilize\fry\node_modules\react C:\Users\zy\AppData\Roaming\npm-cache\40c80e76-lmobilize-fry-node-modules-react.lock
+47 silly lockFile ef42f70d-m-cache-react-0-12-1-package-tgz tar://C:\Users\zy\AppData\Roaming\npm-cache\react\0.12.1\package.tgz
+48 verbose lock tar://C:\Users\zy\AppData\Roaming\npm-cache\react\0.12.1\package.tgz C:\Users\zy\AppData\Roaming\npm-cache\ef42f70d-m-cache-react-0-12-1-package-tgz.lock
+49 silly gunzTarPerm modes [ '777', '666' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+54 silly gunzTarPerm extractEntry addons.js
+55 silly gunzTarPerm modified mode [ 'addons.js', 420, 438 ]
+56 silly gunzTarPerm extractEntry react.js
+57 silly gunzTarPerm modified mode [ 'react.js', 420, 438 ]
+58 silly gunzTarPerm extractEntry dist/JSXTransformer.js
+59 silly gunzTarPerm modified mode [ 'dist/JSXTransformer.js', 420, 438 ]
+60 silly gunzTarPerm extractEntry dist/react-with-addons.js
+61 silly gunzTarPerm modified mode [ 'dist/react-with-addons.js', 420, 438 ]
+62 silly gunzTarPerm extractEntry dist/react-with-addons.min.js
+63 silly gunzTarPerm modified mode [ 'dist/react-with-addons.min.js', 420, 438 ]
+64 silly gunzTarPerm extractEntry dist/react.js
+65 silly gunzTarPerm modified mode [ 'dist/react.js', 420, 438 ]
+66 silly gunzTarPerm extractEntry dist/react.min.js
+67 silly gunzTarPerm modified mode [ 'dist/react.min.js', 420, 438 ]
+68 silly gunzTarPerm extractEntry lib/AutoFocusMixin.js
+69 silly gunzTarPerm modified mode [ 'lib/AutoFocusMixin.js', 420, 438 ]
+70 silly gunzTarPerm extractEntry lib/ReactPutListenerQueue.js
+71 silly gunzTarPerm modified mode [ 'lib/ReactPutListenerQueue.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry lib/ReactReconcileTransaction.js
+73 silly gunzTarPerm modified mode [ 'lib/ReactReconcileTransaction.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry lib/ReactRootIndex.js
+75 silly gunzTarPerm modified mode [ 'lib/ReactRootIndex.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry lib/ReactPropTypes.js
+77 silly gunzTarPerm modified mode [ 'lib/ReactPropTypes.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry lib/ReactServerRenderingTransaction.js
+79 silly gunzTarPerm modified mode [ 'lib/ReactServerRenderingTransaction.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry lib/ReactStateSetters.js
+81 silly gunzTarPerm modified mode [ 'lib/ReactStateSetters.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry lib/ReactTestUtils.js
+83 silly gunzTarPerm modified mode [ 'lib/ReactTestUtils.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry lib/ReactTextComponent.js
+85 silly gunzTarPerm modified mode [ 'lib/ReactTextComponent.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry lib/ReactTransitionChildMapping.js
+87 silly gunzTarPerm modified mode [ 'lib/ReactTransitionChildMapping.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry lib/ReactPropTypeLocations.js
+89 silly gunzTarPerm modified mode [ 'lib/ReactPropTypeLocations.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry lib/ReactTransitionEvents.js
+91 silly gunzTarPerm modified mode [ 'lib/ReactTransitionEvents.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry lib/ReactPropTypeLocationNames.js
+93 silly gunzTarPerm modified mode [ 'lib/ReactPropTypeLocationNames.js', 420, 438 ]
+94 silly gunzTarPerm extractEntry lib/ReactTransitionGroup.js
+95 silly gunzTarPerm modified mode [ 'lib/ReactTransitionGroup.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry lib/ReactPropTransferer.js
+97 silly gunzTarPerm modified mode [ 'lib/ReactPropTransferer.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry lib/ReactUpdates.js
+99 silly gunzTarPerm modified mode [ 'lib/ReactUpdates.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry lib/ReactPerf.js
+101 silly gunzTarPerm modified mode [ 'lib/ReactPerf.js', 420, 438 ]
+102 silly gunzTarPerm extractEntry lib/ReactWithAddons.js
+103 silly gunzTarPerm modified mode [ 'lib/ReactWithAddons.js', 420, 438 ]
+104 silly gunzTarPerm extractEntry lib/ReactOwner.js
+105 silly gunzTarPerm modified mode [ 'lib/ReactOwner.js', 420, 438 ]
+106 silly gunzTarPerm extractEntry lib/SVGDOMPropertyConfig.js
+107 silly gunzTarPerm modified mode [ 'lib/SVGDOMPropertyConfig.js', 420, 438 ]
+108 silly gunzTarPerm extractEntry lib/ReactNativeComponent.js
+109 silly gunzTarPerm modified mode [ 'lib/ReactNativeComponent.js', 420, 438 ]
+110 silly gunzTarPerm extractEntry lib/SelectEventPlugin.js
+111 silly gunzTarPerm modified mode [ 'lib/SelectEventPlugin.js', 420, 438 ]
+112 silly gunzTarPerm extractEntry lib/ReactMultiChildUpdateTypes.js
+113 silly gunzTarPerm modified mode [ 'lib/ReactMultiChildUpdateTypes.js', 420, 438 ]
+114 silly gunzTarPerm extractEntry lib/ServerReactRootIndex.js
+115 silly gunzTarPerm modified mode [ 'lib/ServerReactRootIndex.js', 420, 438 ]
+116 silly gunzTarPerm extractEntry lib/ReactMultiChild.js
+117 silly gunzTarPerm modified mode [ 'lib/ReactMultiChild.js', 420, 438 ]
+118 silly gunzTarPerm extractEntry lib/SimpleEventPlugin.js
+119 silly gunzTarPerm modified mode [ 'lib/SimpleEventPlugin.js', 420, 438 ]
+120 silly gunzTarPerm extractEntry lib/ReactMount.js
+121 silly gunzTarPerm modified mode [ 'lib/ReactMount.js', 420, 438 ]
+122 silly gunzTarPerm extractEntry lib/SyntheticClipboardEvent.js
+123 silly gunzTarPerm modified mode [ 'lib/SyntheticClipboardEvent.js', 420, 438 ]
+124 silly gunzTarPerm extractEntry lib/ReactMarkupChecksum.js
+125 silly gunzTarPerm modified mode [ 'lib/ReactMarkupChecksum.js', 420, 438 ]
+126 silly gunzTarPerm extractEntry lib/SyntheticCompositionEvent.js
+127 silly gunzTarPerm modified mode [ 'lib/SyntheticCompositionEvent.js', 420, 438 ]
+128 silly gunzTarPerm extractEntry lib/ReactLink.js
+129 silly gunzTarPerm modified mode [ 'lib/ReactLink.js', 420, 438 ]
+130 silly gunzTarPerm extractEntry lib/SyntheticDragEvent.js
+131 silly gunzTarPerm modified mode [ 'lib/SyntheticDragEvent.js', 420, 438 ]
+132 silly gunzTarPerm extractEntry lib/ReactLegacyElement.js
+133 silly gunzTarPerm modified mode [ 'lib/ReactLegacyElement.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry lib/SyntheticEvent.js
+135 silly gunzTarPerm modified mode [ 'lib/SyntheticEvent.js', 420, 438 ]
+136 silly gunzTarPerm extractEntry lib/ReactInstanceHandles.js
+137 silly gunzTarPerm modified mode [ 'lib/ReactInstanceHandles.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry lib/SyntheticFocusEvent.js
+139 silly gunzTarPerm modified mode [ 'lib/SyntheticFocusEvent.js', 420, 438 ]
+140 silly gunzTarPerm extractEntry lib/ReactInputSelection.js
+141 silly gunzTarPerm modified mode [ 'lib/ReactInputSelection.js', 420, 438 ]
+142 silly gunzTarPerm extractEntry lib/SyntheticInputEvent.js
+143 silly gunzTarPerm modified mode [ 'lib/SyntheticInputEvent.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry lib/ReactInjection.js
+145 silly gunzTarPerm modified mode [ 'lib/ReactInjection.js', 420, 438 ]
+146 silly gunzTarPerm extractEntry lib/SyntheticKeyboardEvent.js
+147 silly gunzTarPerm modified mode [ 'lib/SyntheticKeyboardEvent.js', 420, 438 ]
+148 silly gunzTarPerm extractEntry lib/ReactEventListener.js
+149 silly gunzTarPerm modified mode [ 'lib/ReactEventListener.js', 420, 438 ]
+150 silly gunzTarPerm extractEntry lib/SyntheticMouseEvent.js
+151 silly gunzTarPerm modified mode [ 'lib/SyntheticMouseEvent.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry lib/ReactEventEmitterMixin.js
+153 silly gunzTarPerm modified mode [ 'lib/ReactEventEmitterMixin.js', 420, 438 ]
+154 silly gunzTarPerm extractEntry lib/SyntheticTouchEvent.js
+155 silly gunzTarPerm modified mode [ 'lib/SyntheticTouchEvent.js', 420, 438 ]
+156 silly gunzTarPerm extractEntry lib/ReactErrorUtils.js
+157 silly gunzTarPerm modified mode [ 'lib/ReactErrorUtils.js', 420, 438 ]
+158 silly gunzTarPerm extractEntry lib/SyntheticUIEvent.js
+159 silly gunzTarPerm modified mode [ 'lib/SyntheticUIEvent.js', 420, 438 ]
+160 silly gunzTarPerm extractEntry lib/ReactEmptyComponent.js
+161 silly gunzTarPerm modified mode [ 'lib/ReactEmptyComponent.js', 420, 438 ]
+162 silly gunzTarPerm extractEntry lib/SyntheticWheelEvent.js
+163 silly gunzTarPerm modified mode [ 'lib/SyntheticWheelEvent.js', 420, 438 ]
+164 silly gunzTarPerm extractEntry lib/ReactElementValidator.js
+165 silly gunzTarPerm modified mode [ 'lib/ReactElementValidator.js', 420, 438 ]
+166 silly gunzTarPerm extractEntry lib/Transaction.js
+167 silly gunzTarPerm modified mode [ 'lib/Transaction.js', 420, 438 ]
+168 silly gunzTarPerm extractEntry lib/ReactElement.js
+169 silly gunzTarPerm modified mode [ 'lib/ReactElement.js', 420, 438 ]
+170 silly gunzTarPerm extractEntry lib/ViewportMetrics.js
+171 silly gunzTarPerm modified mode [ 'lib/ViewportMetrics.js', 420, 438 ]
+172 silly gunzTarPerm extractEntry lib/ReactDefaultPerfAnalysis.js
+173 silly gunzTarPerm modified mode [ 'lib/ReactDefaultPerfAnalysis.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry lib/accumulateInto.js
+175 silly gunzTarPerm modified mode [ 'lib/accumulateInto.js', 420, 438 ]
+176 silly gunzTarPerm extractEntry lib/ReactDefaultPerf.js
+177 silly gunzTarPerm modified mode [ 'lib/ReactDefaultPerf.js', 420, 438 ]
+178 silly gunzTarPerm extractEntry lib/adler32.js
+179 silly gunzTarPerm modified mode [ 'lib/adler32.js', 420, 438 ]
+180 silly gunzTarPerm extractEntry lib/ReactDefaultInjection.js
+181 silly gunzTarPerm modified mode [ 'lib/ReactDefaultInjection.js', 420, 438 ]
+182 silly gunzTarPerm extractEntry lib/camelize.js
+183 silly gunzTarPerm modified mode [ 'lib/camelize.js', 420, 438 ]
+184 silly gunzTarPerm extractEntry lib/ReactDefaultBatchingStrategy.js
+185 silly gunzTarPerm modified mode [ 'lib/ReactDefaultBatchingStrategy.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry lib/camelizeStyleName.js
+187 silly gunzTarPerm modified mode [ 'lib/camelizeStyleName.js', 420, 438 ]
+188 silly gunzTarPerm extractEntry lib/ReactDOMTextarea.js
+189 silly gunzTarPerm modified mode [ 'lib/ReactDOMTextarea.js', 420, 438 ]
+190 silly gunzTarPerm extractEntry lib/cloneWithProps.js
+191 silly gunzTarPerm modified mode [ 'lib/cloneWithProps.js', 420, 438 ]
+192 silly gunzTarPerm extractEntry lib/ReactDOMSelection.js
+193 silly gunzTarPerm modified mode [ 'lib/ReactDOMSelection.js', 420, 438 ]
+194 silly gunzTarPerm extractEntry lib/containsNode.js
+195 silly gunzTarPerm modified mode [ 'lib/containsNode.js', 420, 438 ]
+196 silly gunzTarPerm extractEntry lib/ReactDOMSelect.js
+197 silly gunzTarPerm modified mode [ 'lib/ReactDOMSelect.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry lib/copyProperties.js
+199 silly gunzTarPerm modified mode [ 'lib/copyProperties.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry lib/ReactDOMOption.js
+201 silly gunzTarPerm modified mode [ 'lib/ReactDOMOption.js', 420, 438 ]
+202 silly gunzTarPerm extractEntry lib/createArrayFrom.js
+203 silly gunzTarPerm modified mode [ 'lib/createArrayFrom.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry lib/ReactDOMInput.js
+205 silly gunzTarPerm modified mode [ 'lib/ReactDOMInput.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry lib/createFullPageComponent.js
+207 silly gunzTarPerm modified mode [ 'lib/createFullPageComponent.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry lib/ReactDOMImg.js
+209 silly gunzTarPerm modified mode [ 'lib/ReactDOMImg.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry lib/createNodesFromMarkup.js
+211 silly gunzTarPerm modified mode [ 'lib/createNodesFromMarkup.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry lib/ReactDOMIDOperations.js
+213 silly gunzTarPerm modified mode [ 'lib/ReactDOMIDOperations.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry lib/cx.js
+215 silly gunzTarPerm modified mode [ 'lib/cx.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry lib/ReactDOMForm.js
+217 silly gunzTarPerm modified mode [ 'lib/ReactDOMForm.js', 420, 438 ]
+218 silly gunzTarPerm extractEntry lib/dangerousStyleValue.js
+219 silly gunzTarPerm modified mode [ 'lib/dangerousStyleValue.js', 420, 438 ]
+220 silly gunzTarPerm extractEntry lib/ReactDOMComponent.js
+221 silly gunzTarPerm modified mode [ 'lib/ReactDOMComponent.js', 420, 438 ]
+222 silly gunzTarPerm extractEntry lib/deprecated.js
+223 silly gunzTarPerm modified mode [ 'lib/deprecated.js', 420, 438 ]
+224 silly gunzTarPerm extractEntry lib/ReactDOMButton.js
+225 silly gunzTarPerm modified mode [ 'lib/ReactDOMButton.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry lib/emptyFunction.js
+227 silly gunzTarPerm modified mode [ 'lib/emptyFunction.js', 420, 438 ]
+228 silly gunzTarPerm extractEntry lib/ReactDOM.js
+229 silly gunzTarPerm modified mode [ 'lib/ReactDOM.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry lib/emptyObject.js
+231 silly gunzTarPerm modified mode [ 'lib/emptyObject.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry lib/ReactCurrentOwner.js
+233 silly gunzTarPerm modified mode [ 'lib/ReactCurrentOwner.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry lib/escapeTextForBrowser.js
+235 silly gunzTarPerm modified mode [ 'lib/escapeTextForBrowser.js', 420, 438 ]
+236 silly gunzTarPerm extractEntry lib/ReactContext.js
+237 silly gunzTarPerm modified mode [ 'lib/ReactContext.js', 420, 438 ]
+238 silly gunzTarPerm extractEntry lib/flattenChildren.js
+239 silly gunzTarPerm modified mode [ 'lib/flattenChildren.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry lib/ReactCompositeComponent.js
+241 silly gunzTarPerm modified mode [ 'lib/ReactCompositeComponent.js', 420, 438 ]
+242 silly gunzTarPerm extractEntry lib/focusNode.js
+243 silly gunzTarPerm modified mode [ 'lib/focusNode.js', 420, 438 ]
+244 silly gunzTarPerm extractEntry lib/ReactComponentWithPureRenderMixin.js
+245 silly gunzTarPerm modified mode [ 'lib/ReactComponentWithPureRenderMixin.js', 420, 438 ]
+246 silly gunzTarPerm extractEntry lib/forEachAccumulated.js
+247 silly gunzTarPerm modified mode [ 'lib/forEachAccumulated.js', 420, 438 ]
+248 silly gunzTarPerm extractEntry lib/ReactComponentBrowserEnvironment.js
+249 silly gunzTarPerm modified mode [ 'lib/ReactComponentBrowserEnvironment.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry lib/getActiveElement.js
+251 silly gunzTarPerm modified mode [ 'lib/getActiveElement.js', 420, 438 ]
+252 silly gunzTarPerm extractEntry lib/ReactComponent.js
+253 silly gunzTarPerm modified mode [ 'lib/ReactComponent.js', 420, 438 ]
+254 silly gunzTarPerm extractEntry lib/getEventCharCode.js
+255 silly gunzTarPerm modified mode [ 'lib/getEventCharCode.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry lib/ReactChildren.js
+257 silly gunzTarPerm modified mode [ 'lib/ReactChildren.js', 420, 438 ]
+258 silly gunzTarPerm extractEntry lib/getEventKey.js
+259 silly gunzTarPerm modified mode [ 'lib/getEventKey.js', 420, 438 ]
+260 silly gunzTarPerm extractEntry lib/ReactCSSTransitionGroupChild.js
+261 silly gunzTarPerm modified mode [ 'lib/ReactCSSTransitionGroupChild.js', 420, 438 ]
+262 silly gunzTarPerm extractEntry lib/getEventModifierState.js
+263 silly gunzTarPerm modified mode [ 'lib/getEventModifierState.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry lib/ReactCSSTransitionGroup.js
+265 silly gunzTarPerm modified mode [ 'lib/ReactCSSTransitionGroup.js', 420, 438 ]
+266 silly gunzTarPerm extractEntry lib/getEventTarget.js
+267 silly gunzTarPerm modified mode [ 'lib/getEventTarget.js', 420, 438 ]
+268 silly gunzTarPerm extractEntry lib/ReactBrowserEventEmitter.js
+269 silly gunzTarPerm modified mode [ 'lib/ReactBrowserEventEmitter.js', 420, 438 ]
+270 silly gunzTarPerm extractEntry lib/getMarkupWrap.js
+271 silly gunzTarPerm modified mode [ 'lib/getMarkupWrap.js', 420, 438 ]
+272 silly gunzTarPerm extractEntry lib/ReactBrowserComponentMixin.js
+273 silly gunzTarPerm modified mode [ 'lib/ReactBrowserComponentMixin.js', 420, 438 ]
+274 silly gunzTarPerm extractEntry lib/getNodeForCharacterOffset.js
+275 silly gunzTarPerm modified mode [ 'lib/getNodeForCharacterOffset.js', 420, 438 ]
+276 silly gunzTarPerm extractEntry lib/React.js
+277 silly gunzTarPerm modified mode [ 'lib/React.js', 420, 438 ]
+278 silly gunzTarPerm extractEntry lib/getReactRootElementInContainer.js
+279 silly gunzTarPerm modified mode [ 'lib/getReactRootElementInContainer.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry lib/PooledClass.js
+281 silly gunzTarPerm modified mode [ 'lib/PooledClass.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry lib/getTextContentAccessor.js
+283 silly gunzTarPerm modified mode [ 'lib/getTextContentAccessor.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry lib/Object.assign.js
+285 silly gunzTarPerm modified mode [ 'lib/Object.assign.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry lib/getUnboundedScrollPosition.js
+287 silly gunzTarPerm modified mode [ 'lib/getUnboundedScrollPosition.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry lib/MobileSafariClickEventPlugin.js
+289 silly gunzTarPerm modified mode [ 'lib/MobileSafariClickEventPlugin.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry lib/hyphenate.js
+291 silly gunzTarPerm modified mode [ 'lib/hyphenate.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry lib/LocalEventTrapMixin.js
+293 silly gunzTarPerm modified mode [ 'lib/LocalEventTrapMixin.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry lib/hyphenateStyleName.js
+295 silly gunzTarPerm modified mode [ 'lib/hyphenateStyleName.js', 420, 438 ]
+296 silly gunzTarPerm extractEntry lib/LinkedValueUtils.js
+297 silly gunzTarPerm modified mode [ 'lib/LinkedValueUtils.js', 420, 438 ]
+298 silly gunzTarPerm extractEntry lib/instantiateReactComponent.js
+299 silly gunzTarPerm modified mode [ 'lib/instantiateReactComponent.js', 420, 438 ]
+300 silly gunzTarPerm extractEntry lib/LinkedStateMixin.js
+301 silly gunzTarPerm modified mode [ 'lib/LinkedStateMixin.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry lib/invariant.js
+303 silly gunzTarPerm modified mode [ 'lib/invariant.js', 420, 438 ]
+304 silly gunzTarPerm extractEntry lib/HTMLDOMPropertyConfig.js
+305 silly gunzTarPerm modified mode [ 'lib/HTMLDOMPropertyConfig.js', 420, 438 ]
+306 silly gunzTarPerm extractEntry lib/isEventSupported.js
+307 silly gunzTarPerm modified mode [ 'lib/isEventSupported.js', 420, 438 ]
+308 silly gunzTarPerm extractEntry lib/ExecutionEnvironment.js
+309 silly gunzTarPerm modified mode [ 'lib/ExecutionEnvironment.js', 420, 438 ]
+310 silly gunzTarPerm extractEntry lib/isNode.js
+311 silly gunzTarPerm modified mode [ 'lib/isNode.js', 420, 438 ]
+312 silly gunzTarPerm extractEntry lib/EventPropagators.js
+313 silly gunzTarPerm modified mode [ 'lib/EventPropagators.js', 420, 438 ]
+314 silly gunzTarPerm extractEntry lib/isTextInputElement.js
+315 silly gunzTarPerm modified mode [ 'lib/isTextInputElement.js', 420, 438 ]
+316 silly gunzTarPerm extractEntry lib/EventPluginUtils.js
+317 silly gunzTarPerm modified mode [ 'lib/EventPluginUtils.js', 420, 438 ]
+318 silly gunzTarPerm extractEntry lib/isTextNode.js
+319 silly gunzTarPerm modified mode [ 'lib/isTextNode.js', 420, 438 ]
+320 silly gunzTarPerm extractEntry lib/EventPluginRegistry.js
+321 silly gunzTarPerm modified mode [ 'lib/EventPluginRegistry.js', 420, 438 ]
+322 silly gunzTarPerm extractEntry lib/joinClasses.js
+323 silly gunzTarPerm modified mode [ 'lib/joinClasses.js', 420, 438 ]
+324 silly gunzTarPerm extractEntry lib/EventPluginHub.js
+325 silly gunzTarPerm modified mode [ 'lib/EventPluginHub.js', 420, 438 ]
+326 silly gunzTarPerm extractEntry lib/keyMirror.js
+327 silly gunzTarPerm modified mode [ 'lib/keyMirror.js', 420, 438 ]
+328 silly gunzTarPerm extractEntry lib/EventListener.js
+329 silly gunzTarPerm modified mode [ 'lib/EventListener.js', 420, 438 ]
+330 silly gunzTarPerm extractEntry lib/keyOf.js
+331 silly gunzTarPerm modified mode [ 'lib/keyOf.js', 420, 438 ]
+332 silly gunzTarPerm extractEntry lib/EventConstants.js
+333 silly gunzTarPerm modified mode [ 'lib/EventConstants.js', 420, 438 ]
+334 silly gunzTarPerm extractEntry lib/mapObject.js
+335 silly gunzTarPerm modified mode [ 'lib/mapObject.js', 420, 438 ]
+336 silly gunzTarPerm extractEntry lib/EnterLeaveEventPlugin.js
+337 silly gunzTarPerm modified mode [ 'lib/EnterLeaveEventPlugin.js', 420, 438 ]
+338 silly gunzTarPerm extractEntry lib/memoizeStringOnly.js
+339 silly gunzTarPerm modified mode [ 'lib/memoizeStringOnly.js', 420, 438 ]
+340 silly gunzTarPerm extractEntry lib/DefaultEventPluginOrder.js
+341 silly gunzTarPerm modified mode [ 'lib/DefaultEventPluginOrder.js', 420, 438 ]
+342 silly gunzTarPerm extractEntry lib/merge.js
+343 silly gunzTarPerm modified mode [ 'lib/merge.js', 420, 438 ]
+344 silly gunzTarPerm extractEntry lib/Danger.js
+345 silly gunzTarPerm modified mode [ 'lib/Danger.js', 420, 438 ]
+346 silly gunzTarPerm extractEntry lib/mergeInto.js
+347 silly gunzTarPerm modified mode [ 'lib/mergeInto.js', 420, 438 ]
+348 silly gunzTarPerm extractEntry lib/DOMPropertyOperations.js
+349 silly gunzTarPerm modified mode [ 'lib/DOMPropertyOperations.js', 420, 438 ]
+350 silly gunzTarPerm extractEntry lib/monitorCodeUse.js
+351 silly gunzTarPerm modified mode [ 'lib/monitorCodeUse.js', 420, 438 ]
+352 silly gunzTarPerm extractEntry lib/DOMProperty.js
+353 silly gunzTarPerm modified mode [ 'lib/DOMProperty.js', 420, 438 ]
+354 silly gunzTarPerm extractEntry lib/onlyChild.js
+355 silly gunzTarPerm modified mode [ 'lib/onlyChild.js', 420, 438 ]
+356 silly gunzTarPerm extractEntry lib/DOMChildrenOperations.js
+357 silly gunzTarPerm modified mode [ 'lib/DOMChildrenOperations.js', 420, 438 ]
+358 silly gunzTarPerm extractEntry lib/performance.js
+359 silly gunzTarPerm modified mode [ 'lib/performance.js', 420, 438 ]
+360 silly gunzTarPerm extractEntry lib/CompositionEventPlugin.js
+361 silly gunzTarPerm modified mode [ 'lib/CompositionEventPlugin.js', 420, 438 ]
+362 silly gunzTarPerm extractEntry lib/performanceNow.js
+363 silly gunzTarPerm modified mode [ 'lib/performanceNow.js', 420, 438 ]
+364 silly gunzTarPerm extractEntry lib/ClientReactRootIndex.js
+365 silly gunzTarPerm modified mode [ 'lib/ClientReactRootIndex.js', 420, 438 ]
+366 silly gunzTarPerm extractEntry lib/setInnerHTML.js
+367 silly gunzTarPerm modified mode [ 'lib/setInnerHTML.js', 420, 438 ]
+368 silly gunzTarPerm extractEntry lib/ChangeEventPlugin.js
+369 silly gunzTarPerm modified mode [ 'lib/ChangeEventPlugin.js', 420, 438 ]
+370 silly gunzTarPerm extractEntry lib/shallowEqual.js
+371 silly gunzTarPerm modified mode [ 'lib/shallowEqual.js', 420, 438 ]
+372 silly gunzTarPerm extractEntry lib/CallbackQueue.js
+373 silly gunzTarPerm modified mode [ 'lib/CallbackQueue.js', 420, 438 ]
+374 silly gunzTarPerm extractEntry lib/shouldUpdateReactComponent.js
+375 silly gunzTarPerm modified mode [ 'lib/shouldUpdateReactComponent.js', 420, 438 ]
+376 silly gunzTarPerm extractEntry lib/CSSPropertyOperations.js
+377 silly gunzTarPerm modified mode [ 'lib/CSSPropertyOperations.js', 420, 438 ]
+378 silly gunzTarPerm extractEntry lib/toArray.js
+379 silly gunzTarPerm modified mode [ 'lib/toArray.js', 420, 438 ]
+380 silly gunzTarPerm extractEntry lib/CSSProperty.js
+381 silly gunzTarPerm modified mode [ 'lib/CSSProperty.js', 420, 438 ]
+382 silly gunzTarPerm extractEntry lib/traverseAllChildren.js
+383 silly gunzTarPerm modified mode [ 'lib/traverseAllChildren.js', 420, 438 ]
+384 silly gunzTarPerm extractEntry lib/CSSCore.js
+385 silly gunzTarPerm modified mode [ 'lib/CSSCore.js', 420, 438 ]
+386 silly gunzTarPerm extractEntry lib/update.js
+387 silly gunzTarPerm modified mode [ 'lib/update.js', 420, 438 ]
+388 silly gunzTarPerm extractEntry lib/BeforeInputEventPlugin.js
+389 silly gunzTarPerm modified mode [ 'lib/BeforeInputEventPlugin.js', 420, 438 ]
+390 silly gunzTarPerm extractEntry lib/warning.js
+391 silly gunzTarPerm modified mode [ 'lib/warning.js', 420, 438 ]
+392 silly gunzTarPerm extractEntry lib/ReactServerRendering.js
+393 silly gunzTarPerm modified mode [ 'lib/ReactServerRendering.js', 420, 438 ]
+394 silly lockFile 40c80e76-lmobilize-fry-node-modules-react tar://E:\allmobilize\fry\node_modules\react
+395 silly lockFile 40c80e76-lmobilize-fry-node-modules-react tar://E:\allmobilize\fry\node_modules\react
+396 silly lockFile ef42f70d-m-cache-react-0-12-1-package-tgz tar://C:\Users\zy\AppData\Roaming\npm-cache\react\0.12.1\package.tgz
+397 silly lockFile ef42f70d-m-cache-react-0-12-1-package-tgz tar://C:\Users\zy\AppData\Roaming\npm-cache\react\0.12.1\package.tgz
+398 info preinstall react@0.12.1
+399 verbose readDependencies using package.json deps
+400 verbose readDependencies using package.json deps
+401 silly resolved []
+402 verbose about to build E:\allmobilize\fry\node_modules\react
+403 info build E:\allmobilize\fry\node_modules\react
+404 verbose linkStuff [ false, false, false, 'E:\\allmobilize\\fry\\node_modules' ]
+405 info linkStuff react@0.12.1
+406 verbose linkBins react@0.12.1
+407 verbose linkMans react@0.12.1
+408 verbose rebuildBundles react@0.12.1
+409 info install react@0.12.1
+410 info postinstall react@0.12.1
+411 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+411 error peerinvalid Peer react-async@2.1.0 wants react@>=0.12.0 <0.14.0
+411 error peerinvalid Peer react-router@0.13.3 wants react@0.13.x
+412 error System Windows_NT 6.1.7601
+413 error command "d:\\Program Files\\nodejs\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react@0.12.1"
+414 error cwd E:\allmobilize\fry
+415 error node -v v0.10.38
+416 error npm -v 1.4.28
+417 error code EPEERINVALID
+418 verbose exit [ 1, true ]

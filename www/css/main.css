@@ -1,0 +1,58 @@
+/* line 4, stdin */
+html, body, h1, h2, h3, h4, div, p {
+  margin: 0; }
+
+/* line 9, stdin */
+html, body {
+  font-size: 62.5%; }
+  /* line 13, stdin */
+  html section, body section {
+    height: 100%; }
+
+/* line 20, stdin */
+.header {
+  font-size: 1.4rem;
+  color: #fff;
+  height: 44px;
+  background: #11d9bf;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  /* line 30, stdin */
+  .header .left-nav {
+    display: inline-block;
+    position: absolute;
+    left: 0; }
+    /* line 35, stdin */
+    .header .left-nav img {
+      width: 36px;
+      height: 36px;
+      padding: 4px 8px; }
+  /* line 41, stdin */
+  .header .center-nav {
+    margin: 0 48px;
+    display: block;
+    line-height: 44px;
+    text-align: center; }
+  /* line 47, stdin */
+  .header .right-nav {
+    display: inline-block;
+    position: absolute;
+    right: 0; }
+
+/* line 56, stdin */
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 44px;
+  background: #11d9bf; }
+  /* line 63, stdin */
+  .footer .footer-nav-bar {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    font-size: 1.4rem; }
