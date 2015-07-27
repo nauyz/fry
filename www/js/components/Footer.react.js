@@ -18,28 +18,8 @@ var Footer = React.createClass({
 	 */
 	render: function() {
 	  	return (
-			<footer id="footer" className="footer">
-				<div className="footer-nav-bar" onClick={this._onChangeView.bind(this, ViewConstants.DASHBOARD_VIEW)}>
-					<p>桌面</p>
-				</div>
-				<div className="footer-nav-bar" onClick={this._onChangeView.bind(this, ViewConstants.RECOMMEND_VIEW)}>
-					<p>推荐</p>
-				</div>
-				<div className="footer-nav-bar" onClick={this._onChangeView.bind(this, ViewConstants.CATEGORY_VIEW)}>
-					<p>分类</p>
-				</div>
-				<div className="footer-nav-bar" onClick={this._onChangeView.bind(this, ViewConstants.SETTING_VIEW)}>
-					<p>设置</p>
-				</div>
-			</footer>
+			<div></div>
 		);
-	},
-
-	/**
-	 * Event handler to change view
-	 */
-	_onChangeView: function (view) {
-		GameActions.changeView(view);
 	}
 });
 

@@ -14,12 +14,22 @@ var Header = React.createClass({
      * @return {object}
      */
     render: function() {
+        var header = this.props.header;
         var left = null;
         var title = null;
         var right = null;
 
-        title = <h1 className="center-nav">阅读理解</h1>;
-        right = <div className="right-nav"></div>;
+        if (header && header.left) {
+            left = <div className="left-nav"><a href={header.left.url}>{header.left.name}</a></div>;
+        }
+
+        if (header && header.title) {
+            title = <h1 className="center-nav">{header.title}</h1>;
+        }
+
+        if (header && header.right) {
+            right = <div className="right-nav"><a href={header.right.url}>{header.right.name}</a></div>;
+        }
 
         return (
             <header id="header" className="header">

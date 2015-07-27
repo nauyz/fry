@@ -11,12 +11,22 @@
 
 var keyMirror = require('keymirror');
 
-module.exports = keyMirror({
-  TODO_CREATE: null,
-  TODO_COMPLETE: null,
-  TODO_DESTROY: null,
-  TODO_DESTROY_COMPLETED: null,
-  TODO_TOGGLE_COMPLETE_ALL: null,
-  TODO_UNDO_COMPLETE: null,
-  TODO_UPDATE_TEXT: null
-});
+module.exports = {
+    UserTypes: keyMirror({
+        GET_FRIEND_LIST: null,
+        GET_GROUP_LIST: null,
+        RECEIVE_FRIEND_LIST: null,
+        RECEIVE_GROUP_LIST: null,
+        RECEIVE_USER: null,
+        RECEIVE_TOKEN: null
+    }),
+
+    MessageTypes: keyMirror({
+        RECEIVE_CONVERSATION_LIST: null,
+        RECEIVE_HISTORY_LIST: null,
+        RECEIVE_MESSAGE: null,
+        SEND_MESSAGE: null,
+        ADD_HISTORY: null,
+        ADD_CONVERSATION: null
+    })
+}

@@ -12,8 +12,8 @@ var gulp        = require('gulp'),
     watchify    = require('watchify'),
     reactify    = require('reactify')
 
-var DOMAIN = 'localhost',
-    PORT = 8765;
+var DOMAIN = '192.168.2.17',
+    PORT = 100;
 
 var paths = {
     js: 'www/js/*.js',

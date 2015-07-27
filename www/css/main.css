@@ -4,55 +4,140 @@ html, body, h1, h2, h3, h4, div, p {
 
 /* line 9, stdin */
 html, body {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  height: 100%; }
   /* line 13, stdin */
   html section, body section {
     height: 100%; }
 
-/* line 20, stdin */
+/* line 18, stdin */
+#app {
+  height: 100%; }
+
+/* line 24, stdin */
 .header {
   font-size: 1.4rem;
   color: #fff;
   height: 44px;
-  background: #11d9bf;
+  background: #20d4f4;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100; }
-  /* line 30, stdin */
+  /* line 34, stdin */
   .header .left-nav {
     display: inline-block;
     position: absolute;
-    left: 0; }
-    /* line 35, stdin */
+    left: 0;
+    top: 0;
+    line-height: 44px;
+    margin-left: 16px; }
+    /* line 42, stdin */
     .header .left-nav img {
       width: 36px;
       height: 36px;
       padding: 4px 8px; }
-  /* line 41, stdin */
+    /* line 47, stdin */
+    .header .left-nav a {
+      color: #fff; }
+  /* line 51, stdin */
   .header .center-nav {
-    margin: 0 48px;
+    margin: 0 64px;
     display: block;
     line-height: 44px;
-    text-align: center; }
-  /* line 47, stdin */
+    text-align: center;
+    font-weight: 400;
+    font: 1.6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  /* line 62, stdin */
   .header .right-nav {
     display: inline-block;
     position: absolute;
-    right: 0; }
+    right: 0;
+    top: 0;
+    line-height: 44px;
+    margin-right: 16px; }
+    /* line 70, stdin */
+    .header .right-nav a {
+      color: #fff;
+      line-height: 44px;
+      font-size: 3rem; }
 
-/* line 56, stdin */
+/* line 80, stdin */
 .footer {
   position: fixed;
   width: 100%;
   bottom: 0;
   height: 44px;
-  background: #11d9bf; }
-  /* line 63, stdin */
+  background: #20d4f4; }
+  /* line 87, stdin */
   .footer .footer-nav-bar {
     display: inline-block;
     width: 25%;
     text-align: center;
     line-height: 44px;
     color: #fff;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    text-decoration: none; }
+
+/* line 100, stdin */
+.login .enterplorer {
+  padding: 80px 0 20px 0;
+  text-align: center;
+  font-size: 2.4rem; }
+
+/* line 105, stdin */
+.login .login-form {
+  padding: 20px; }
+  /* line 107, stdin */
+  .login .login-form legend {
+    margin-bottom: 0.8rem; }
+  /* line 110, stdin */
+  .login .login-form input {
+    height: 2.8rem;
+    width: 100%; }
+  /* line 115, stdin */
+  .login .login-form .am-form-group p {
+    font-size: 1.4rem;
+    padding: 4px; }
+  /* line 120, stdin */
+  .login .login-form .am-option {
+    text-align: right; }
+
+/* line 126, stdin */
+.articles {
+  height: 100%;
+  padding-top: 44px; }
+  /* line 130, stdin */
+  .articles .article-list {
+    padding: 8px 8px 0 8px;
+    height: 100%;
+    overflow: scroll; }
+    /* line 136, stdin */
+    .articles .article-list .list .list-link {
+      color: #000;
+      display: block;
+      padding: 10px 0; }
+      /* line 141, stdin */
+      .articles .article-list .list .list-link .title {
+        font-size: 1.8rem;
+        color: #565656;
+        font-weight: bold; }
+      /* line 146, stdin */
+      .articles .article-list .list .list-link .other {
+        color: #999; }
+    /* line 150, stdin */
+    .articles .article-list .list .line {
+      padding: 0;
+      overflow: hidden;
+      background-image: -webkit-linear-gradient(top, #ddd, #ddd 60%, transparent 60%);
+      background-size: 100% 1px;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      height: 1px; }
+
+/* line 164, stdin */
+.fr {
+  float: right; }
