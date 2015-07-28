@@ -8,10 +8,6 @@ var Login = require('./components/Login.react');
 //var ArticleService = require('./api/ArticleServices');
 var DefaultRoute = Router.DefaultRoute;
 
-
-// UserService.getFriends();
-// UserService.getGroups();
-
 // declare our routes and their hierarchy
 var routes = (
 	<Route handler={App}>

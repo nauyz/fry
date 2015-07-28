@@ -1,12 +1,9 @@
 var $ = require('jquery');
 var UserActions = require('../actions/ArticleActions');
 
-var HOST = 'http://192.168.2.25:4000';
+var HOST = '';
 var PATH = {
-    USERS: '/userlist',
-    GROUPS: '/groups',
-    GROUP_MEMBERS: '/groupmembers',
-    LOGIN: '/login'
+
 };
 
 var UserService = {

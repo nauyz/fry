@@ -9,10 +9,6 @@ var Login = require('./components/Login.react');
 //var ArticleService = require('./api/ArticleServices');
 var DefaultRoute = Router.DefaultRoute;
 
-
-// UserService.getFriends();
-// UserService.getGroups();
-
 // declare our routes and their hierarchy
 var routes = (
 	React.createElement(Route, {handler: App}, 
@@ -32639,12 +32635,9 @@ module.exports = ArticleActions;
 var $ = require('jquery');
 var UserActions = require('../actions/ArticleActions');
 
-var HOST = 'http://192.168.2.25:4000';
+var HOST = '';
 var PATH = {
-    USERS: '/userlist',
-    GROUPS: '/groups',
-    GROUP_MEMBERS: '/groupmembers',
-    LOGIN: '/login'
+
 };
 
 var UserService = {
@@ -32729,9 +32722,14 @@ var Article = React.createClass({displayName: "Article",
             title: '',
             id: '',
             content: '',
-        }
+        };
+
+        var id = this.props.params.id;
+
+
+        console.log(this.props);
         return (
-            React.createElement("div", null)
+            React.createElement("div", null, this.props.params.id)
         );
     }
 });

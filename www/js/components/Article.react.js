@@ -9,9 +9,14 @@ var Article = React.createClass({
             title: '',
             id: '',
             content: '',
-        }
+        };
+
+        var id = this.props.params.id;
+
+
+        console.log(this.props);
         return (
-            <div></div>
+            <div>{this.props.params.id}</div>
         );
     }
 });
